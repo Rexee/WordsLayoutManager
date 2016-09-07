@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:background="@drawable/shape"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:textColor="@color/shape"
+        tools:text="Lorem"
+        android:gravity="center"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp" />
+
+</FrameLayout>
